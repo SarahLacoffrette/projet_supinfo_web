@@ -1,0 +1,45 @@
+.title_detail {
+    font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top : 100px;
+ }
+
+.container_about_right{
+    margin-left: 200px;
+}
+
+.container_image {
+    position: relative;
+}
+
+.container_details {
+    position: relative;
+}
+
+.label{
+    font-size: 20px;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.container_artwork_artist{
+    margin-top: 100px;
+}
+
+.section_details{
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top:  -100px;
+}

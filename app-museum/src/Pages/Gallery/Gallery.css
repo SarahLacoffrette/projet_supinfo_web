@@ -1,0 +1,19 @@
+.banner_gallery{
+    margin: 0;
+    position: relative;
+    vertical-align: bottom;
+    height: 300px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(0, 0, 0, 0.734)
+      ), url('../../Components/pictures/musee-des-beaux-arts.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+    background-position: 50% 70%;
+    image-rendering: crisp-edges;
+}
+
+.section_gallery{
+    background-color: black;
+}

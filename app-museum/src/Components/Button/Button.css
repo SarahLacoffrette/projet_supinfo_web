@@ -1,0 +1,33 @@
+.bn31 {
+    background-image: linear-gradient(to right, rgb(0, 174, 255) 0%, rgb(127, 199, 232) 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #ffffff ;
+    display: block;
+    height: 65px;
+    font-size: 1.4em;
+    padding: 2px;
+    position: relative;
+    text-decoration: none;
+    width: 8em;
+    z-index: 2;
+  }
+  
+  .bn31:hover {
+    color: #fff;
+  }
+  
+  .bn31 .bn31span {
+    align-items: center;
+    background: #000000;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .bn31:hover .bn31span {
+    background: transparent;
+  }

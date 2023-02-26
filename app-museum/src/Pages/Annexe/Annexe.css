@@ -1,0 +1,30 @@
+h3 {
+    font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+ }
+
+.container_about_right{
+    margin-left: 200px;
+}
+
+.container_image {
+    position: relative;
+}
+
+.container_details {
+    position: relative;
+}
+
+.label{
+    font-size: 20px;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

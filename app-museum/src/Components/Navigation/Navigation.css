@@ -1,0 +1,72 @@
+.footer{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    text-align: left;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+
+.container_nav{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 0px;
+    text-align: left;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y:none;
+    
+}
+
+.text_section_art{
+    font-family: Times New Roman,serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.nav_artwork{
+    height: 200px;
+    display: block;
+    overflow-x: scroll;   
+    width : 1790px;
+}
+
+.section_art{
+    margin: 20px;
+    display: inline-block;
+}
+
+.image_art{
+    width: 300px;
+    height: 180px;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px black;
+}
+
+.artwork{
+    background-color: rgba(34, 33, 33, 0.855);
+    text-align: left;
+    margin-top: -35px;
+    height: 35px;
+    position: relative;
+    width: 300px;
+    z-index: 3;
+    overflow: hidden;
+}
+.smallArtTitle{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    color: white;
+}
