@@ -2,7 +2,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home/Home';
-import Test from './Pages/Annexe/Annexe';
+import Test from './Pages/Annexe/Annexe'; //Page brouillon
 import About from './Pages/About/About';
 import Gallery from './Pages/Gallery/Gallery';
 import Contact from './Pages/Contact/Contact';
@@ -20,7 +20,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/search' element={<Search/>}/>
         <Route path='/details' element={<Details/>}/>
-        <Route path="/museum" element={<Test/>}/>
+        <Route path="/museum" element={<Test/>}/> 
         <Route path="*" element={<NoFound/>}></Route>
       </Routes>
     </BrowserRouter>

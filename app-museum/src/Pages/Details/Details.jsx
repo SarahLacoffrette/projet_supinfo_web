@@ -20,7 +20,7 @@ const Details = () => {
         console.log('Premier rendering !');
         searchArtwork( url + '/' + queryObjectId);
 
-      }, []);
+      });
 
     async function searchArtwork(props){
         var item;
@@ -94,7 +94,6 @@ const Details = () => {
                     </section>
                 </div> 
             </div>
-
         </div>
     )
 }

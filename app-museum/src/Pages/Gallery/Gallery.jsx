@@ -13,6 +13,7 @@ const Gallery = () => {
     setTimeout(() => {
         setShow(true);
       }, 2000);
+      
     return(
         <div>
             <Header/>

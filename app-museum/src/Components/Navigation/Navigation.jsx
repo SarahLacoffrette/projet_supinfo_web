@@ -22,7 +22,6 @@ const Navigation = (props) => {
 
     function searchObjectIDs(){
         listObjectIDs = listDatas.objectIDs;
-        //console.log(listObjectIDs);
         constructDatabase();
     }
 
@@ -39,8 +38,7 @@ const Navigation = (props) => {
     }
 
     return(
-        <div>
-            
+        <div> 
             <span className="text_section_art">{props.title} :</span>
                 <div className="nav_artwork">
                     {data.map(url => {

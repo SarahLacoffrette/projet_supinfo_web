@@ -3,7 +3,7 @@ import Header from "../../Components/Header/Header";
 import Navigation from "../../Components/Navigation/Navigation";
 import { useState, useEffect } from 'react';
 
-const Search = (props) => {
+const Search = () => {
 
     const url = 'https://collectionapi.metmuseum.org/public/collection/v1/departments';
     var listDatas;
@@ -61,14 +61,12 @@ const Search = (props) => {
                                 <i className="fa fa-search" ><span className="material-symbols-outlined">search</span></i>
                             </button>
                         </form>
-                        
                     </div>
                 </div>
                 <div id="resultSearch">
                     <Navigation url={"https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=" + queryDepartment + "&q=" + queryText} title="Résultat des recherches "/>;
                 </div>
-            </div>
-            
+            </div>   
         </div>
     )
 }

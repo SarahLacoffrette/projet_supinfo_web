@@ -30,7 +30,6 @@ const Artwork = (props) => {
     }
 
     function display(item){
-        //console.log(item);
         try {
             var result = JSON.parse(JSON.stringify(item));
             if(result === ""){
@@ -83,9 +82,7 @@ const Artwork = (props) => {
                 <div className="artwork"><span className="smallArtTitle">{display(artwork.title)}</span></div>
             </div>
         )
-    } 
-   
-    
+    }   
 }
 
 export default Artwork;
